@@ -1,5 +1,7 @@
 .gitignore
 .npmignore
 .tags
-node_modules/
 npm-debug.log
+lib-cov/
+node_modules/
+src/
