@@ -1,7 +1,7 @@
 {
   "name": "simple-walker",
   "version": "0.1.0",
-  "description": "A simple walker for directories and files",
+  "description": "simple-walker is a nodejs synchronous walker to search files inside dirs. It's specially designed to load dynamic files, like routes, modules, etc.",
   "main": "lib/walker",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,9 @@
     "directory",
     "files",
     "walker",
-    "path"
+    "path",
+    "search",
+    "match"
   ],
   "author": "Francisco Hidalgo <fjhidalgo@gmail.com>",
   "license": "MIT",
