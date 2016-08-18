@@ -2,9 +2,11 @@
   "name": "simple-walker",
   "version": "0.1.0",
   "description": "simple-walker is a nodejs synchronous walker to search files inside dirs. It's specially designed to load dynamic files, like routes, modules, etc.",
-  "main": "lib/walker",
+  "main": "dist/walker",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
