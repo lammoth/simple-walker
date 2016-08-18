@@ -1,6 +1,6 @@
 'use strict';
 
-import walker from '../lib/walker';
+import walker from '../src/walker';
 import minimist from 'minimist';
 
 
