@@ -1,6 +1,6 @@
 {
   "name": "simple-walker",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "simple-walker is a nodejs synchronous walker to search files inside dirs. It's specially designed to load dynamic files, like routes, modules, etc.",
   "main": "dist/walker",
   "scripts": {

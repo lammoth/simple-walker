@@ -29,9 +29,10 @@ export default function(location, dirFilter, fileFilter) {
     listeners: {
       directories: function (root, dirStatsArray, next) {
         dirStatsArray.forEach((element, index, array) => {
-          if (element.name === dirFilter) {
+          if ((dirFilter && element.name === dirFilter) || !dirFilter) {
             data.push({
               dir: `${root}/${element.name}`,
+              name: element.name,
               path: null
             });
           }
